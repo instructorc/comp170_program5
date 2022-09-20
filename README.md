@@ -3,10 +3,13 @@
 
 The MPLS Dog Boarding company would like for you to create an application that allows for a care attendant to be able 
 to create, retrieve and update dog records from the system. MPLS Dog Boarding can only have 12 dogs in their care at a time. When you select the option to **create** a dog record.  You will 
-enter the dog's id, dog's name, weight and dog's age  Once information is entered for a dog, the program will display
-entered information and reprompt the care attendent to select an option to exit, display, create or update dog records.  When the **update** option
-is selected the care attendant will be presented with option to enter the dog's id number and reassign information
-pertaining to dog.  When the **retrieve** option is selected, the user will be able to enter the dog's id and be presented
+enter the dog's id, dog's name, weight and dog's age.  Once information is entered for a dog, the program will display
+entered information and reprompt the care attendent to select an option to exit, display, create or update dog record.  
+
+When the **update** option is selected the care attendant will be presented with option to enter the dog's id number and reassign information
+pertaining to dog.  
+
+When the **retrieve** option is selected, the user will be able to enter the dog's id and be presented
 with dog information.
 
 **Hints**
