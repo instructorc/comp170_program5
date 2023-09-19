@@ -187,6 +187,13 @@ Style - Proper use of comments, spacing, in program; use of descriptive variable
 ## Requirement 5 (5 Points) 
 Program is submitted by the due date listed and pushed to assigned GitHub Repository; Repository contains a minimum of three commits.
 
+## Extra Credit (2 Points)
+Add a new number option that allows the end-user to temporarily display the current list of dogs with age in human years. 
+ - The list calls a method that recursively iterates through the list and displays the name of the dog and the dog’s age in human years.  Let’s assume that 1 dog year equals 15 human years.
+    - Consider what will be the base case when making the recursive call.
+
+
+
 ## Submission
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted.
 If you prefer, you can also submit the .java file to Sakai.
