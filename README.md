@@ -188,7 +188,7 @@ Style - Proper use of comments, spacing, in program; use of descriptive variable
 Program is submitted by the due date listed and pushed to assigned GitHub Repository; Repository contains a minimum of three commits.
 
 ## Extra Credit (2 Points)
-Add a new number option that allows the end-user to temporarily display the current list of dogs with age in human years. 
+Add a new menu number option that allows the end-user to temporarily display the current list of dogs with age in human years. 
  - The list calls a method that recursively iterates through the list and displays the name of the dog and the dog’s age in human years.  Let’s assume that 1 dog year equals 15 human years.
     - Consider what will be the base case when making the recursive call.
 
