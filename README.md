@@ -20,147 +20,7 @@ Your program should operate similarly to the program shown in the .gif below The
 
 ![Alt text](https://instructorc.github.io/site/slides/java/images/methods/sample_output_prog5.gif "Program 5 Execution Example")
 
-**SAMPLE OUTPUT BELOW**
-```
-Welcome, this program allows for a care attendant to be able to create, retrieve and update a 
-dog record from the system.
 
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record 
-        3) Update dog record  
-        4) Exit Program       
-Enter selection here --> 7    
-Invalid menu option
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record 
-        3) Update dog record  
-        4) Exit Program       
-Enter selection here --> 6    
-Invalid menu option
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record 
-        3) Update dog record  
-        4) Exit Program       
-Enter selection here --> 1    
-You have selected to enter a new dog.
-Enter dog ID #: 12
-Enter dog Name: Mavis
-Enter dog weight: 20
-Enter dog age: 2
-
-The following information has been entered:
-        ID #: 12
-        Name #: Mavis
-        Weight #: 20
-        Age #: 2
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 1
-You have selected to enter a new dog.
-Enter dog ID #: 3
-Enter dog Name: Cujo
-Enter dog weight: 53
-Enter dog age: 3
-
-The following information has been entered:
-        ID #: 3
-        Name #: Cujo
-        Weight #: 53
-        Age #: 3
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 2
- 
-ID #: 12 for Mavis
-ID #: 3 for Cujo
-Please enter ID # to from above to display record: 7
-Id # does not match dog id in system
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 2
- 
-ID #: 12 for Mavis
-ID #: 3 for Cujo
-Please enter ID # to from above to display record: 3
-        ID #: 3
-        Name #: Cujo
-        Weight #: 53
-        Age #: 3
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 3
-ID #: 12 for Mavis
-ID #: 3 for Cujo
-Please enter the dog ID # to update record
-6
-Id # does not match dog id in system
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 3
-ID #: 12 for Mavis
-ID #: 3 for Cujo
-Please enter the dog ID # to update record
-12
-You have selected to update Mavis
-Enter dog ID #: 1
-Enter dog Name: Lucky
-Enter dog weight: 10
-Enter dog age: 4
-
-The following information has been updated:
-        ID #: 1
-        Name #: Lucky
-        Weight #: 10
-        Age #: 4
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 2
- 
-ID #: 1 for Lucky
-ID #: 3 for Cujo
-Please enter ID # to from above to display record: 1
-        ID #: 1
-        Name #: Lucky
-        Weight #: 10
-        Age #: 4
-
-Select a menu option:
-        1) Create a dog record
-        2) Display dog record
-        3) Update dog record
-        4) Exit Program
-Enter selection here --> 4
-Program has ended!
-```
 
 #### Listed below is a detailed explanation of the requirements needed to complete the dog management system.  
 
@@ -170,7 +30,7 @@ Whenever possible, make sure to declare all variables that will hold data along 
 Proper structure used for allowing the end-user to continously select menu option until a sentinel value is entered.
 
 ## Requirement 2 (5 Points) 
-Input/Output of all necessary information for each item entry; Program properly makes use of arrays/multi-dimensional arrays to structure data;
+Input/Output of all necessary information for each item entry; Program properly makes use of arrays to structure data;
 Program only accepts dog id numbers that have been entered.
 
 ## Requirement 3 (5 Points) 
@@ -196,4 +56,4 @@ Add a new menu number option that allows the end-user to temporarily display the
 
 ## Submission
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted.
-If you prefer, you can also submit the .java file to Sakai.
+
